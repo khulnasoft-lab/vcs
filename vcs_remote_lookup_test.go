@@ -16,7 +16,7 @@ func TestVCSLookup(t *testing.T) {
 		t    Type
 	}{
 		"https://github.com/khulnasoft-lab":                                {work: false, t: Git},
-		"https://github.com/khulnasoft-lab/vcs/VCSTestRepo":                {work: true, t: Git},
+		"https://github.com/khulnasoft-lab/VCSTestRepo":                    {work: true, t: Git},
 		"https://bitbucket.org/mattfarina/atest":                           {work: true, t: Git},
 		"https://launchpad.net/govcstestbzrrepo/trunk":                     {work: true, t: Bzr},
 		"https://launchpad.net/~mattfarina/+junk/mygovcstestbzrrepo":       {work: true, t: Bzr},
